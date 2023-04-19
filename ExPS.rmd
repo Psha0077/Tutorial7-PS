@@ -1,8 +1,25 @@
 ---
-title: "Tutorial7_ex1"
-author: "Pranav"
-date: "`r Sys.Date()`"
-output: html_document
+title: "Reproducible and Collaborative Practices"
+   subtitle: "Tutorial 7"
+   author: "Prajakta"
+   institute: "Department of Econometrics and Business Statistics"
+   output:
+    pdf_document:
+      toc: true
+      toc_depth: 2
+      number_sections: true
+      highlight: tango
+   header-includes:
+     - \usepackage{titling}
+     - \pretitle{\begin{center} \includegraphics[width=5in,height=13in]{figs/front.jpg}\LARGE\\}
+     - \posttitle{\end{center}}
+     - \usepackage{fontawesome}
+     - \usepackage[most]{tcolorbox}
+     - \usepackage{xcolor}
+     - \usepackage{sectsty}
+     - \sectionfont{\color{olive}}
+     - \usepackage{verbatim}
+
 ---
 
 ```{r setup, include=FALSE}
@@ -30,4 +47,6 @@ plot(pressure)
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 Added Ex1
+
+
 
